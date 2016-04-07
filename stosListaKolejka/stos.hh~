@@ -1,0 +1,22 @@
+#ifndef stos_hh
+#define stos_hh
+class InterfaceStos
+{
+public:
+  virtual void push(int element)=0;
+  virtual int pop()=0;
+  virtual int size()=0;
+};
+
+
+class Stos : public InterfaceStos
+{
+  int Size;
+  List list;
+  int pomocnicza;//zmienna do przechowywania zdejmowanego elementu
+public:
+  void push(int element);
+  int pop();
+  int size();
+};
+#endif
