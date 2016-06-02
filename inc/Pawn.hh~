@@ -1,0 +1,8 @@
+#ifndef PAWN_HH
+#define PAWN_HH
+
+struct Pawn{
+
+};
+
+#endif
